@@ -34,7 +34,7 @@
           <div class="col-12 justify-content-center py-4">
             <h1>Mailing List</h1>
           </div>
-          <div class="col-12"><p v-for="mail in mailingList">{{mail}}</p></div>
+          <div class="col-12" v-if="mailingList.length === 10"></div>"><p v-for="mail in mailingList">{{mail}}</p></div>
         </div>
       </div>
     </div>
